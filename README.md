@@ -6,11 +6,13 @@ Nathanaël Fijalkow and Mohit K. Gupta
 **Verification of Neural Networks: Specifying Global Robustness using Generative Models**
 [arXiv link](TBA)
 
-The available experiments are:
-* [Random walk](blob/master/Random_walk.ipynb)
-* [Analysis of an image classifier using a generative model](blob/master/Analysis.ipynb)
-* [Evaluating the global correctness](blob/master/Global_correctness.ipynb)
-* [Searching for Realistic Adversarial Examples: black-box approach](blob/master/Adversarial%20Examples%20Black-box.ipynb)
-* [Searching for Realistic Adversarial Examples: white-box approach](blob/master/Adversarial%20Examples%20White-box.ipynb)
+The experiments are in Jupter notebook format:
+* [Random walk](Random_walk.ipynb)
+* [Analysis of an image classifier using a generative model](Analysis.ipynb)
+* [Evaluating the global correctness](Global_correctness.ipynb)
+* [Searching for Realistic Adversarial Examples: black-box approach](Adversarial%20Examples%20Black-box.ipynb)
+* [Searching for Realistic Adversarial Examples: white-box approach](Adversarial%20Examples%20White-box.ipynb)
+* [Dependence on the generative model: disjoint training sets](EMNIST.ipynb)
+#* [Replicating the experiments on the Fashion-MNIST dataset](Fashion_MNIST.ipynb)
 
-
+All experiments use Tensorflow, and pre-trained models can be used (see /Models).
