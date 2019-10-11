@@ -3,7 +3,9 @@
 We present experiments exploring the notions of global correctness and global robustness defined in our research paper:
 
 [Nathanaël Fijalkow](https://nathanael-fijalkow.github.io/) and Mohit Kumar Gupta
+
 **Verification of Neural Networks: Specifying Global Robustness using Generative Models**
+
 [arXiv link](TBA)
 
 The experiments are in Jupter notebook format:
