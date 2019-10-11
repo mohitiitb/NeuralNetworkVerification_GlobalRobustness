@@ -7,7 +7,7 @@ We present experiments exploring the notions of global correctness and global ro
 [arXiv link](TBA)
 
 The experiments are in Jupter notebook format:
-* [Random walk](https://github.com/mohitiitb/NeuralNetworkVerification_GlobalRobustness/blob/master/Random_walk.ipynb)
+* [Random walk](https://github.com/mohitiitb/NeuralNetworkVerification_GlobalRobustness/blob/master/Random%20walk.ipynb)
 * [Analysis of an image classifier using a generative model](https://github.com/mohitiitb/NeuralNetworkVerification_GlobalRobustness/blob/master/Analysis.ipynb)
 * [Evaluating the global correctness](https://github.com/mohitiitb/NeuralNetworkVerification_GlobalRobustness/blob/master/Global correctness.ipynb)
 * [Searching for Realistic Adversarial Examples: black-box approach](https://github.com/mohitiitb/NeuralNetworkVerification_GlobalRobustness/blob/master/Adversarial%20Examples%20Black-box.ipynb)
