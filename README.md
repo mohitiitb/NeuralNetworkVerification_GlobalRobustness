@@ -6,7 +6,7 @@ We present experiments exploring the notions of global correctness and global ro
 
 **Verification of Neural Networks: Specifying Global Robustness using Generative Models**
 
-[arXiv link](TBA)
+[arXiv link](https://arxiv.org/abs/1910.05018)
 
 The experiments are in Jupter notebook format:
 * [Random walk](https://github.com/mohitiitb/NeuralNetworkVerification_GlobalRobustness/blob/master/Random%20walk.ipynb)
