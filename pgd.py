@@ -20,14 +20,15 @@ combined_networkOutput = classifier(x)
 combined_network = tf.keras.models.Model(inputs=combined_networkInput, outputs=combined_networkOutput)
 
 
-noise_change = 0.5
+noise_change = 0.1
 
 found = False
 
 loss_object = tf.keras.losses.CategoricalCrossentropy()
 
 input_label = np.zeros((1,10))
-input_label[0][digit_target] = 1.0
+input_label[0][digit_target] = 0.7
+input_label[0][digit_origin] = 0.3
 
 start = time.time()
 
@@ -46,7 +47,9 @@ while(not found):
                 result_target = K.eval(combined_network(noise))[0][3]
                 print("confidence of 3",result_target)
                 print("confidence of 8",K.eval(combined_network(noise))[0][8])
-                if(result_target > 0.5):
+                if(result_target < 0.05 and K.eval(combined_network(noise))[0][8] < 0.05):
+                      break
+                if(result_target >= 0.5):
                       generated_image = K.eval(gan(noise))[0]
                       print("Confidence in %d is %f" % (digit_target,result_target))
                       plt.imshow(generated_image.reshape(1,28,28)[0],cmap='gray')
